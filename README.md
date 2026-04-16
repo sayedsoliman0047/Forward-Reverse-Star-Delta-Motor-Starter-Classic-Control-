@@ -1,6 +1,6 @@
 # Forward-Reverse-Star-Delta-Motor-Starter-Classic-Control
 
-## 📌 Project Overview
+##  Project Overview
 
 This project implements a **Classic Control (Relay Logic)** system for a **3-phase induction motor** that supports:
 
@@ -11,14 +11,14 @@ The system combines **direction control** with **Star-Delta starting** for safe 
 
 ---
 
-## ⚙️ Project Type
+##  Project Type
 
-🔹 Classic Control (Hardwired Relay Logic)
-🔹 No PLC used (No TIA Portal programming)
+ Classic Control (Hardwired Relay Logic)
+ No PLC used (No TIA Portal programming)
 
 ---
 
-## 🎯 Objective
+##  Objective
 
 To design a system that:
 
@@ -28,7 +28,7 @@ To design a system that:
 
 ---
 
-## 🔧 Components Used
+##  Components Used
 
 * Forward Contactor (KF)
 * Reverse Contactor (KR)
@@ -41,9 +41,9 @@ To design a system that:
 
 ---
 
-## ⚡ Working Principle
+##  Working Principle
 
-### 🔹 Forward Operation
+###  Forward Operation
 
 1. Press Forward Start → KF is energized
 2. Motor starts in **Star mode (KY ON)**
@@ -52,7 +52,7 @@ To design a system that:
 
 ---
 
-### 🔹 Reverse Operation
+###  Reverse Operation
 
 1. Press Reverse Start → KR is energized
 2. Motor rotates in reverse direction
@@ -61,13 +61,13 @@ To design a system that:
 
 ---
 
-### 🔹 Stop Function
+###  Stop Function
 
 * Press Stop → all contactors are de-energized immediately
 
 ---
 
-## 🔐 Interlocking Protection
+##  Interlocking Protection
 
 ### 1. Direction Interlocking
 
@@ -81,7 +81,7 @@ To design a system that:
 
 ---
 
-## ⚠️ Important Notes
+##  Important Notes
 
 * Incorrect wiring may cause **severe short circuit**
 * Timer must ensure proper switching delay
@@ -89,7 +89,7 @@ To design a system that:
 
 ---
 
-## 🧠 Key Concepts
+##  Key Concepts
 
 * Classic Control
 * Forward / Reverse motor control
@@ -99,19 +99,19 @@ To design a system that:
 
 ---
 
-## 📷 Circuit Diagram
+##  Circuit Diagram
 
 ![Solution](./solution.jpg)
 
 ---
 
-## 🎥 Demo Video
+##  Demo Video
 
 ![video](./video.mp4)
 
 ---
 
-## 🚀 How to Operate
+##  How to Operate
 
 1. Power ON system
 2. Choose direction:
